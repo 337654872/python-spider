@@ -5,9 +5,9 @@ from bs4 import BeautifulSoup
 import time
 import datetime
 
-urlhead = "http://www.720ii.com"
-test_url="http://www.720ii.com/xiaoshuo/index.html"
-home_page = 'http://www.720ii.com/xiaoshuo/index.html'
+urlhead = "http://www.xxx.com"
+test_url="http://www.xxx.com/xiaoshuo/index.html"
+home_page = 'http://www.xxx.com/xiaoshuo/index.html'
 #设置headers，网站会根据这个判断你的浏览器及操作系统，很多网站没有此信息将拒绝你访问
 header = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.62 Safari/537.36'}
